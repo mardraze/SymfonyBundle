@@ -20,6 +20,6 @@ class Product
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
-
+    
 
 }

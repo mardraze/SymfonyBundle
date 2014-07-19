@@ -1,3 +1,6 @@
 mardraze_product_homepage:
     path:     /hello/{name}
     defaults: { _controller: MardrazeProductBundle:Default:index }
+home:
+    path:     /
+    defaults: { _controller: MardrazeProductBundle:Default:index, name: "okokok" }

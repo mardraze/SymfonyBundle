@@ -36,5 +36,12 @@ class CategoryI18n
      * @ORM\Column(name="name", type="string", nullable=true)
      */
     private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="string", nullable=true)
+     */
+    private $description;
     
 }
